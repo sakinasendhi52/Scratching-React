@@ -64,7 +64,7 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 ---
 
-## Technologies Used
+## 🛠️Technologies Used
 
 - HTML5
 - CSS3
@@ -170,7 +170,7 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 **[Sakina Mufaddal Sendhi]**
 
-[![GitHub](https://img.shields.io/badge/GitHub-sakinasendhi52-181717?style=for-the-badge&logo=github)](https://github.com/sakinasendhi52)
+[![GitHub](https://img.shields.io/badge/GitHub--sakinasendhi52-181717?style=for-the-badge&logo=github)](https://github.com/sakinasendhi52)
 
 ⭐ Thank you for visiting this repository!
 
