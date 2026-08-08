@@ -13,9 +13,9 @@
 - [Project Description](#-project-description)
 - [How This Project is Made](#-how-this-project-is-made)
 - [Features](#-features)
-- [Technologies Used](#-technologies-used)
+- [Technologies Used](#technologies-used)
 - [Concepts Covered](#-concepts-covered)
-- [How It Works](#-how-it-works)
+- [How It Works](#how-it-works)
 - [Screenshot](#-screenshot)
 - [Demo](#-demo)
 - [Author](#-author)
@@ -64,7 +64,7 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 ---
 
-## 🛠️Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
