@@ -1,0 +1,842 @@
+/* ======= HEADER COMPONENT ======= */
+
+.header {
+    width: 100%;
+    padding: 28px 20px;
+    box-sizing: border-box;
+
+    background: #54463A;
+    color: white;
+
+    box-shadow: 0 4px 15px rgba(84, 70, 58, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+
+    color: #F0B8B8;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.header p {
+    margin: 8px 0 0;
+    padding: 0;
+
+    color: #A2AE9D;
+    font-size: 14px;
+}
+
+/* ======= WELCOME SECTION ======= */
+
+.welcomeSection {
+    padding: 35px 25px 45px;
+    background: #ffffff;
+}
+
+
+/* ======= TASK HEADING =======*/
+
+.task {
+    margin: 0 0 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #54463A;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    text-decoration: underline;
+    text-decoration-color: #C75F71;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+
+/* ======= STUDENT INFORMATION TABLE ======= */
+
+.tableData {
+    width: 92%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    border-collapse: separate;
+    border-spacing: 0;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid #A2AE9D;
+    border-radius: 12px;
+
+    box-shadow: 0 6px 20px rgba(84, 70, 58, 0.10);
+}
+
+
+/* Table headings */
+
+.tableData th {
+    padding: 14px 12px;
+
+    background: #54463A;
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/* Table data */
+
+.tableData td {
+    padding: 14px 12px;
+
+    color: #54463A;
+
+    font-size: 14px;
+
+    border-right: 1px solid #A2AE9D;
+    border-top: 1px solid #A2AE9D;
+
+    background: #ffffff;
+}
+
+
+/* Alternate table row */
+
+.tableData tbody tr:hover td {
+    background: #F0B8B8;
+    transition: 0.2s ease;
+}
+
+
+/* Remove last borders */
+
+.tableData th:last-child,
+.tableData td:last-child {
+    border-right: none;
+}
+
+
+/* ======= MOUNTAIN IMAGE TITLE ======= */
+
+.mountainTitle {
+    margin: 28px 0 15px;
+
+    color: #54463A;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* ======= MOUNTAIN IMAGE ======= */
+
+.mountainImageContainer {
+    width: 700px;
+    max-width: 90%;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    border: 5px solid #F0B8B8;
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(84, 70, 58, 0.18);
+
+    background: #A2AE9D;
+}
+
+
+.mountainImageContainer img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    transition: transform 0.4s ease;
+}
+
+
+/* Small zoom effect */
+
+.mountainImageContainer:hover img {
+    transform: scale(1.03);
+}
+
+
+/* ======= RESPONSIVE DESIGN ======= */
+
+@media (max-width: 768px) {
+
+    .welcomeSection {
+        padding: 25px 15px 35px;
+    }
+
+    .task {
+        font-size: 21px;
+    }
+
+    .tableData {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .tableData th,
+    .tableData td {
+        padding: 10px 6px;
+        font-size: 12px;
+    }
+
+    .mountainImageContainer {
+        max-width: 100%;
+    }
+}
+
+/* ======= TASK 3 - REST & SPREAD ======= */
+
+.restSpreadSection {
+    padding: 40px 25px 50px;
+
+    background: #F0B8B8;
+
+    border-top: 1px solid #A2AE9D;
+    border-bottom: 1px solid #A2AE9D;
+}
+
+
+/* ======= TABLE CONTAINER ======= */
+
+.operatorTable {
+    width: 92%;
+    max-width: 1100px;
+
+    margin: 0 auto 22px;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    box-shadow: 0 6px 18px rgba(84, 70, 58, 0.12);
+
+    transition: 0.25s ease;
+}
+
+
+/* Slight lift when hovering */
+
+.operatorTable:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 9px 25px rgba(84, 70, 58, 0.16);
+}
+
+
+/* ======= TABLE ======= */
+
+.operatorTable .tableData {
+    width: 100%;
+
+    margin: 0;
+
+    border-collapse: separate;
+    border-spacing: 0;
+
+    background: #ffffff;
+
+    border: 1px solid #A2AE9D;
+}
+
+
+/* ======= TABLE HEADINGS ======= */
+
+.operatorTable th {
+    padding: 13px 12px;
+
+    background: #54463A;
+
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/* First column */
+
+.operatorTable th:first-child {
+    background: #C75F71;
+
+    min-width: 170px;
+}
+
+
+/* ======= TABLE DATA ======= */
+
+.operatorTable td {
+    padding: 14px 12px;
+
+    background: #ffffff;
+
+    color: #54463A;
+
+    font-size: 13px;
+
+    border-top: 1px solid #A2AE9D;
+    border-right: 1px solid #A2AE9D;
+
+    word-break: break-word;
+}
+
+
+/* Last column */
+
+.operatorTable td:last-child {
+    border-right: none;
+}
+
+
+/* ======= HOVER EFFECT ======= */
+
+.operatorTable tbody tr:last-child td {
+    transition: 0.2s ease;
+}
+
+.operatorTable:hover tbody tr:last-child td {
+    background: #fff8f8;
+}
+
+
+/* ======= RESULT / MERGED VALUES ======= */
+
+.operatorTable td:last-child {
+    font-weight: 600;
+}
+
+
+/* ======= MOBILE ======= */
+
+@media (max-width: 768px) {
+
+    .restSpreadSection {
+        padding: 30px 12px 40px;
+    }
+
+    .operatorTable {
+        width: 100%;
+
+        overflow-x: auto;
+    }
+
+    .operatorTable .tableData {
+        min-width: 650px;
+    }
+
+    .operatorTable th,
+    .operatorTable td {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+}
+
+/* ======= STUDENT CARD SECTION ======= */
+
+.studentCards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.studentCard {
+    width: 260px;
+    max-width: 95%;
+
+    margin: 10px;
+    padding: 25px 18px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 1px solid #A2AE9D;
+    border-top: 6px solid #C75F71;
+
+    border-radius: 16px;
+
+    color: #54463A;
+
+    text-align: left;
+
+    box-shadow: 0 8px 25px rgba(84, 70, 58, 0.13);
+
+    transition: all 0.3s ease;
+}
+
+
+/* ======= CARD HEADER ======= */
+
+.studentCard h3 {
+    margin: 0 0 20px;
+    padding: 0 0 15px;
+
+    color: #54463A;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    text-align: center;
+
+    letter-spacing: 1px;
+
+    border-bottom: 2px solid #F0B8B8;
+}
+
+
+/* ======= STUDENT DETAILS ======= */
+
+.studentCard > div {
+    padding: 8px 10px;
+
+    margin-bottom: 5px;
+
+    background: #faf7f7;
+
+    border-radius: 6px;
+
+    color: #54463A;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    border-left: 3px solid #A2AE9D;
+}
+
+
+/* ======= HOVER EFFECT ======= */
+
+.studentCard:hover {
+    transform: translateY(-7px);
+
+    border-top-color: #54463A;
+
+    box-shadow: 0 14px 30px rgba(84, 70, 58, 0.20);
+}
+
+
+/* Highlight course */
+
+.studentCard > div:last-child {
+    margin-top: 10px;
+
+    background: #F0B8B8;
+
+    border-left-color: #C75F71;
+
+    font-weight: 700;
+}
+
+
+/* ======= MOBILE ======= */
+
+@media (max-width: 600px) {
+
+    .studentCard {
+        width: 100%;
+        max-width: 330px;
+
+        padding: 22px;
+    }
+
+    .studentCard h3 {
+        font-size: 15px;
+    }
+
+    .studentCard > div {
+        font-size: 12px;
+    }
+}
+
+/* ======= TASK 5 - USE STATE ======= */
+
+.stateTable {
+    width: 85%;
+    max-width: 1000px;
+
+    margin: 30px auto 50px;
+
+    border-collapse: separate;
+    border-spacing: 0;
+
+    background: #ffffff;
+
+    border: 1px solid #A2AE9D;
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(84, 70, 58, 0.12);
+}
+
+
+/* ======= TABLE HEADER ======= */
+
+.stateTable th {
+    padding: 16px;
+
+    background: #54463A;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.stateTable th:last-child {
+    border-right: none;
+}
+
+
+/* ======= TABLE DATA ======= */
+
+.stateTable td {
+    padding: 14px 16px;
+
+    color: #54463A;
+
+    background: #ffffff;
+
+    font-size: 14px;
+
+    border-top: 1px solid #A2AE9D;
+    border-right: 1px solid #A2AE9D;
+
+    transition: 0.2s ease;
+}
+
+.stateTable td:last-child {
+    border-right: none;
+}
+
+
+/* ======= HOVER ======= */
+
+.stateTable tbody tr:hover td {
+    background: #fff5f5;
+}
+
+
+/* State name */
+
+.stateTable td:first-child {
+    font-weight: 600;
+
+    color: #C75F71;
+}
+
+
+/* Value */
+
+.stateTable td:nth-child(2) {
+    font-family: monospace;
+
+    color: #54463A;
+}
+
+
+/* ======= BUTTON ======= */
+
+.stateTable button {
+    padding: 8px 16px;
+    margin: 0 5px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: #C75F71;
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+.stateTable button:hover {
+    background: #54463A;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 4px 10px rgba(84, 70, 58, 0.2);
+}
+
+
+/* ======= MOBILE ======= */
+
+@media (max-width: 700px) {
+
+    .stateTable {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .stateTable th,
+    .stateTable td {
+        padding: 10px 8px;
+    }
+
+    .stateTable button {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+}
+
+/* ======= STUDENT INFORMATION MANAGER ======= */
+
+.studentData {
+    width: 80%;
+    max-width: 900px;
+
+    margin: 35px auto 50px;
+
+    border-collapse: separate;
+    border-spacing: 0;
+
+    background: #ffffff;
+
+    border: 1px solid #A2AE9D;
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(84, 70, 58, 0.12);
+}
+
+
+/* ======= TABLE HEADING ======= */
+
+.studentData th {
+    padding: 17px;
+
+    background: #54463A;
+    color: #ffffff;
+
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+    border-bottom: 3px solid #C75F71;
+}
+
+
+/* ======= TABLE CELLS ======= */
+
+.studentData td {
+    padding: 15px 18px;
+
+    background: #ffffff;
+    color: #54463A;
+
+    font-size: 14px;
+
+    border-bottom: 1px solid #A2AE9D;
+}
+
+
+/* Left column */
+
+.studentData td:first-child {
+    width: 30%;
+
+    font-weight: 600;
+
+    color: #C75F71;
+
+    background: #fff7f7;
+}
+
+
+/* Last row */
+
+.studentData tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* ======= INPUT ======= */
+
+.studentData input {
+    width: 220px;
+
+    padding: 9px 12px;
+
+    margin-right: 8px;
+
+    border: 1px solid #A2AE9D;
+    border-radius: 7px;
+
+    outline: none;
+
+    color: #54463A;
+    background: #ffffff;
+
+    font-size: 13px;
+
+    transition: 0.25s ease;
+}
+
+
+/* Input focus */
+
+.studentData input:focus {
+    border-color: #C75F71;
+
+    box-shadow: 0 0 0 3px rgba(199, 95, 113, 0.12);
+}
+
+
+/* ======= BUTTON ======= */
+
+.studentData button {
+    padding: 9px 15px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: #C75F71;
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+
+.studentData button:hover {
+    background: #54463A;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 4px 10px rgba(84, 70, 58, 0.18);
+}
+
+
+/* ======= HOVER ROW ======= */
+
+.studentData tbody tr:not(:first-child):hover td {
+    background: #fff5f5;
+}
+
+
+/* Keep first column slightly highlighted */
+
+.studentData tbody tr:not(:first-child):hover td:first-child {
+    background: #F0B8B8;
+}
+
+
+/* ======= MOBILE ======= */
+
+@media (max-width: 700px) {
+
+    .studentData {
+        width: 95%;
+    }
+
+    .studentData td {
+        padding: 12px 8px;
+    }
+
+    .studentData input {
+        width: 150px;
+        margin-bottom: 8px;
+    }
+
+    .studentData button {
+        padding: 8px 11px;
+    }
+}
+
+/* ======= FOOTER ======= */
+
+.footer {
+    margin-top: 60px;
+    padding: 35px 20px;
+
+    background: #54463A;
+    color: #ffffff;
+
+    border-top: 4px solid #C75F71;
+
+    box-shadow: 0 -5px 20px rgba(84, 70, 58, 0.12);
+}
+
+
+/* Footer Heading */
+
+.footer h3 {
+    margin: 0;
+    padding: 8px;
+
+    color: #F0B8B8;
+
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+/* Footer Text */
+
+.footer p {
+    margin: 5px 0 0;
+    padding: 8px;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+
+/* Small decorative line */
+
+.footer h3::after {
+    content: "";
+
+    display: block;
+
+    width: 45px;
+    height: 3px;
+
+    margin: 12px auto 0;
+
+    background: #C75F71;
+
+    border-radius: 10px;
+}
+
+
+/* Hover effect */
+
+.footer h3:hover {
+    color: #ffffff;
+    transition: 0.3s ease;
+}
