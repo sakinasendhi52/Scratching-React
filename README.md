@@ -158,8 +158,8 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 |---|---|
 | 🔗 React App Live Demo | [React Website](https://my-react-website-project.netlify.app/) |
 | 🔗 Next.js App Live Demo | [Next.js Website](https://my-next-app-project.netlify.app/) |
-| 🎥 Project Explanation Video | *[Add your project explanation video link here]* |
-| 🎥 Project Output Video | *[Add your project explanation video link here]* |
+| 🎥 Project Explanation Video | [Project Explanation Video](https://drive.google.com/file/d/1044Z0jTQHg5YsH__giGWSvE7qen0njF2/view?usp=sharing) |
+| 🎥 Project Output Video | [Project Output Video](https://drive.google.com/file/d/1Hq3YMNVZ0E9vyxkM_ANGcJz59MSvMKXS/view?usp=sharing) |
 
 ---
 
@@ -168,9 +168,9 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 <div align="center">
 
-**[Your Name]**
+**[Sakina Mufaddal Sendhi]**
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=for-the-badge&logo=github)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-your--sakinasendhi52-181717?style=for-the-badge&logo=github)](https://github.com/sakinasendhi52)
 
 ⭐ Thank you for visiting this repository!
 
