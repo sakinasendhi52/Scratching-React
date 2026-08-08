@@ -64,7 +64,7 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -93,32 +93,32 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 ## ⚙️ How It Works
 
-### 🧩 Task 1 – Environment Setup
+### Task 1 – Environment Setup
 - Node.js and VS Code installed locally.
 - React project created using `npm create vite@latest`.
 - Next.js project created using `npx create-next-app@latest`.
 - Both projects run successfully using `npm run dev`.
 
-### 🧱 Task 2 – JSX & Components
+### Task 2 – JSX & Components
 - `Header`, `WelcomeSection`, and `Footer` functional components created.
 - Displays Student Name, Course, Institute Name, current date (via `new Date()`), and an image.
 
-### 🔀 Task 3 – Rest & Spread Operator
+### Task 3 – Rest & Spread Operator
 - Merges two arrays using the spread operator (`[...arr1, ...arr2]`).
 - Merges two objects using the spread operator (`{...obj1, ...obj2}`).
 - Copies an object using the spread operator.
 - A function built with the rest operator (`...args`) to accept variable arguments.
 - All outputs rendered directly on the page.
 
-### 🎴 Task 4 – Props
+### Task 4 – Props
 - A reusable `StudentCard` component accepts `name`, `city`, `state`, `country`, and `course` as props.
-- At least 5 student cards rendered using the same component with different data.
+- 5 student cards rendered using the same component with different data.
 
-### 🔄 Task 5 – State (`useState`)
+### Task 5 – State (`useState`)
 - Separate examples for String, Number, Boolean, Array, and Object state.
-- Each example includes an **Add/Update** button and a **Reset** button.
+- Each example includes an **Update** button and a **Reset** button.
 
-### 💾 Task 6 – useEffect & Local Storage
+### Task 6 – useEffect & Local Storage
 - A **Student Information Manager** app:
   - Add a student name via an input field.
   - Display the list of added students.
@@ -126,7 +126,7 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
   - Automatically retrieve the list from Local Storage on page refresh.
   - Delete a student from the list.
 
-### ▲ Task 7 – Next.js Basics
+### Task 7 – Next.js Basics
 - **Home** and **About** sections are placed on the same page, each wrapped in a container with a unique `id` (e.g. `id="home"`, `id="about"`) and linked via anchor navigation (`<a href="#about">`).
 - A **Students** section/page displays a list of students.
 - A reusable `StudentCard` component (built with Props) is used to render each student.
@@ -170,7 +170,7 @@ This project is built using **React.js (Vite)** and **Next.js** to practice and 
 
 **[Sakina Mufaddal Sendhi]**
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--sakinasendhi52-181717?style=for-the-badge&logo=github)](https://github.com/sakinasendhi52)
+[![GitHub](https://img.shields.io/badge/GitHub-sakinasendhi52-181717?style=for-the-badge&logo=github)](https://github.com/sakinasendhi52)
 
 ⭐ Thank you for visiting this repository!
 
